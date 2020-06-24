@@ -1,6 +1,6 @@
 @import '~bootstrap';
 
-.Register {
+.Login {
 
   &__title,
   &__subtitle {
@@ -16,6 +16,11 @@
     margin-left: 14px;
   }
 
+  &__intro-image {
+    max-height: 600px;
+    max-width: 90%;
+  }
+
   &__submit-btn,
   &__submit-btn:active,
   &__submit-btn:focus {
@@ -24,15 +29,6 @@
     @extend .w-100;
     background: #f54555;
     border-color: #f54555;
-  }
-
-  &__success {
-    animation: fadein 1s;
-  }
-
-  @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
   }
 
 }
